@@ -1,0 +1,13 @@
+/* auto margin */
+block element + with=300px + auto margin 
+    => element positions in the center of view port
+
+/* width + box-sizing */
+if no box-sizing
+    => width is just for text (inner element)
+if box-sizing: border-box
+    => width is padding + text area => (width border size)
+
+/* width max-width */
+max-width no scrolling when small
+
