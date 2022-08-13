@@ -9,5 +9,13 @@ if box-sizing: border-box
     => width is padding + text area => (width border size)
 
 /* width max-width */
+for block element
 max-width no scrolling when small
 
+/* outline between border and margin */
+/* text-align: justify */
+/* text-direction:rtl unicode-bidi:bidi-override */
+/* vw viewport width */
+
+/* responsive table */
+    => <div style="overflow-x:auto;">
