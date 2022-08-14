@@ -1,6 +1,17 @@
 /* auto margin */
-block element + with=300px + auto margin 
-    => element positions in the center of view port
+div block element + with=300px + auto margin 
+    => element positions in the center of view port                      ||||?
+if height is fixed for center align:
+    -> 
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    flex is more easr
+    ->
+            display: flex;
+            justify-content: center;
+
 
 /* width + box-sizing */
 if no box-sizing
@@ -19,3 +30,46 @@ max-width no scrolling when small
 
 /* responsive table */
     => <div style="overflow-x:auto;">
+
+/* visibility:hidden => space will be occupy */
+
+/* width and heigth fix  -> overflow: auto */
+    => adding scrolling
+
+/* float -> putting text and image near each other */        ||||?
+    media query -> responsive width 100%
+
+/* div -> 3 (div float:left with:33.33%) */
+
+/* flex */
+    container -> dispaly:flex  flex-wrap: wrap; (responsive) justify-content: center | space-around;
+    if container heigth selected -> we should select align-item: center
+
+flex item
+    -> style: "order: 1"
+       style: "flex-grow: 2" -> horizontal streching ratio
+
+
+flex : flex-grow, flex-shrink and flex-basis
+flex : 50% -> like width:50%
+    max-width in item needed in case we use flax-wrap
+    reponsive: [flex in each item: 100% | flex-direction container:column ]
+
+inline-block heigth can add 
+in the other hand the major difference is that display: inline-block allows to set a width and height on the element.
+
+---------------------------------------------------------------------------
+selctores 
+' ': all elements that are descendants of a specified element.
+'>': all elements that are the children of a specified element.
+'+': The adjacent sibling selector is used to select an element that is directly after another specific element.
+'~': The general sibling selector selects all elements that are next siblings of a specified element.
+
+
+
+
+                
+
+
+
+
