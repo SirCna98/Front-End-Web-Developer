@@ -39,7 +39,10 @@ max-width no scrolling when small
 /* float -> putting text and image near each other */        ||||?
     media query -> responsive width 100%
 
-/* div -> 3 (div float:left with:33.33%) */
+/* div -> 3 (div float:left with:33.33%) */ for block elements 
+
+    aside position fixed width25% 
+    main content block margin-left:25%; (no gap)
 
 /* flex */
     container -> dispaly:flex  flex-wrap: wrap; (responsive) justify-content: center | space-around;
@@ -64,6 +67,13 @@ selctores
 '>': all elements that are the children of a specified element.
 '+': The adjacent sibling selector is used to select an element that is directly after another specific element.
 '~': The general sibling selector selects all elements that are next siblings of a specified element.
+---------------------------------------------------------------------------
+ Dropdown menu inside a navigation bar
+
+ ul -> li li li{a and div}
+ li -> float: left;
+ div {display:none, position:absolute}
+ last li: hover {display:block}
 
 
 
