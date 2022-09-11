@@ -220,7 +220,11 @@ export default name;
 // Import a default export from the file message.js:
 
         // import message from "./message.js";
-
+// -----------------------------------------------------------------------
+// js class  inheritance
+// class A 
+// class B extends A{ ...}
+// classes are not hoisted
 // ---------------------------------------------------------------------
 // constructor function  !!!!!!!!!!!!!!!
 // JavaScript Object Constructors
@@ -299,6 +303,21 @@ myNumbers[Symbol.iterator] = function() {
 
 // add();
 // add();
+
+// ---------------------------------------------------------------------
+//setTimeout(myFunction, 3000);  myFunction is CallBack
+// setInterval(CallBack,1000);
+
+// --------------------------------------------------------------------
+// The await keyword can only be used inside an async function.
+// async function funcName() {
+//         object Promise
+//         let a = await promise -> program stop hear
+//         ...
+// }
+
+// funcName() -> async
+
 
 
 
