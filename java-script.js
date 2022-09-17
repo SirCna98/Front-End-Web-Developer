@@ -118,6 +118,11 @@ cars[0] = "Toyota";
 
 // Array.forEach(function)
 // arr2 = arr1.map(function) function should return sth
+let arr = [1,2,3,4];
+let arr2 = arr.map(a => a^2);
+
+
+
 // arr2 = arr1.filter(function) function should return true false
 // element( like number) = arr1.reduce(function, initial-val-total)
         // function(total,value){return total+value};
@@ -318,6 +323,26 @@ myNumbers[Symbol.iterator] = function() {
 
 // funcName() -> async
 
+// ------------------------------------------------------------
+// spreed oprator  (...)
+const o1 = {m: function(){alert('ss')}};
+const o2 = {...o1,name:"navid"};
+
+//----------------------------------------------------------
+// object destructuring
+const object = {
+        name: 'Navid',
+        lName: 'Adib',
+        age:24,
+        address: {
+                city:'Tehran',
+                country:'Iran'
+        }
+    };
+    const {name,lName,address:{city}} = object;
+    // const name = object.name;
+    // const lName = object.lName;
+    //const city = object.address.city;
 
 
 
